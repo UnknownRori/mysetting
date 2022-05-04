@@ -1,0 +1,129 @@
+{
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "git.autofetch": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "terminal.integrated.defaultProfile.windows": "zsh",
+    "vsintellicode.features.python.deepLearning": "enabled",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.errorSquiggles": "Enabled",
+    "telemetry.telemetryLevel": "error",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "explorer.confirmDragAndDrop": false,
+    "discord.removeRemoteRepository": true,
+    "java.codeGeneration.generateComments": true,
+    "artisan.serve.defaultHost": "127.0.0.1",
+    "gitlens.views.branches.branches.layout": "list",
+    "editor.cursorBlinking": "phase",
+    "editor.mouseWheelScrollSensitivity": 2.5,
+    "workbench.list.smoothScrolling": true,
+    "diffEditor.codeLens": true,
+    "terminal.integrated.fastScrollSensitivity": 2,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "bracketPairColorizer.depreciation-notice": false,
+    "workbench.list.mouseWheelScrollSensitivity": 2,
+    "workbench.iconTheme": "material-icon-theme",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": false,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "lineBreakInsert"
+            ],
+            "silent": true
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "editor.fontFamily": "Lucida Console, monospace",
+    "terminal.integrated.fontFamily": "Source Code Pro, Lucida Console, monospace",
+    "wallpaper-setting.opacity": 0.8,
+    "wallpaper-setting.slideRandomPlay": true,
+    "files.simpleDialog.enable": true,
+    "search.showLineNumbers": true,
+    "editor.lineHeight": 1.5,
+    "editor.smoothScrolling": true,
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+    "editor.renderWhitespace": "all",
+    "screencastMode.keyboardShortcutsFormat": "commandWithGroupAndKeys",
+    "window.dialogStyle": "custom",
+    "editor.cursorSmoothCaretAnimation": true,
+    "screencastMode.verticalOffset": 10,
+    "vim.enableNeovim": true,
+    "screencastMode.fontSize": 45,
+    "screencastMode.keyboardOverlayTimeout": 500,
+    "wallpaper-setting.slideInterval": 2,
+    "editor.quickSuggestionsDelay": 0,
+    "workbench.colorTheme": "GitHub Dark Default",
+    "svg.preview.mode": "svg",
+    "bladeFormatter.format.sortTailwindcssClasses": true,
+    "githubPullRequests.createOnPublishBranch": "never",
+    "tabnine.experimentalAutoImports": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.minimap.maxColumn": 60,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.minimap.renderCharacters": false,
+}
