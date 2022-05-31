@@ -130,9 +130,6 @@
     "svg.preview.mode": "svg",
     "bladeFormatter.format.sortTailwindcssClasses": true,
     "githubPullRequests.createOnPublishBranch": "never",
-    "tabnine.experimentalAutoImports": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
     "editor.minimap.maxColumn": 60,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "diffEditor.ignoreTrimWhitespace": false,
@@ -141,4 +138,26 @@
     "editor.suggest.localityBonus": true,
     "editor.suggest.preview": true,
     "editor.suggest.showStatusBar": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.formatOnPaste": true,
+    "git.enableCommitSigning": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.referencesCodeLens.showOnAllFunctions": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": true,
+    "breadcrumbs.filePath": "last",
+    "html.completion.attributeDefaultValue": "singlequotes",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBorder": "#4141419f"
+    },
+    "html.format.indentInnerHtml": true,
+    "editor.formatOnSave": true,
+    "vetur.experimental.templateInterpolationService": true,
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    "emmet.excludeLanguages": [
+        "markdown",
+        "php"
+    ]
 }
