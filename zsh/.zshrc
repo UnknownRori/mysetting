@@ -128,6 +128,9 @@ znap eval iterm2 'curl -fsSL https://iterm2.com/shell_integration/zsh'
 znap function _pyenv pyenvn 'eval "$( pyenv init - --no-rehash )"'
 compctl -K    _pyenv pyenv
 
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
 alias artisan="php artisan"
 alias cli="php cli"
 alias q="exit"
