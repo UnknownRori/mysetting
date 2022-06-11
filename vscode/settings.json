@@ -108,7 +108,6 @@
     "editor.fontFamily": "Fira Code, Lucida Console, monospace",
     "editor.fontLigatures": true,
     "terminal.integrated.fontFamily": "Source Code Pro, Lucida Console, monospace",
-    "wallpaper-setting.opacity": 0.8,
     "wallpaper-setting.slideRandomPlay": true,
     "files.simpleDialog.enable": true,
     "search.showLineNumbers": true,
@@ -158,5 +157,8 @@
     "emmet.excludeLanguages": [
         "markdown",
         "php"
-    ]
+    ],
+    "workbench.editorAssociations": {
+        "*.db": "default"
+    }
 }
