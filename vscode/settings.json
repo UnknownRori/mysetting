@@ -154,11 +154,8 @@
     "vetur.experimental.templateInterpolationService": true,
     "php.suggest.basic": false,
     "php.validate.enable": false,
-    "emmet.excludeLanguages": [
-        "markdown",
-        "php"
-    ],
     "workbench.editorAssociations": {
         "*.db": "default"
-    }
+    },
+    "wallpaper-setting.opacity": 0.65
 }
