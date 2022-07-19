@@ -103,8 +103,6 @@
   "githubPullRequests.createOnPublishBranch": "never",
   "editor.minimap.maxColumn": 60,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.minimap.renderCharacters": false,
   "editor.suggest.shareSuggestSelections": true,
   "editor.suggest.localityBonus": true,
   "editor.suggest.preview": true,
@@ -128,7 +126,8 @@
   "php.suggest.basic": false,
   "php.validate.enable": false,
   "workbench.editorAssociations": {
-    "*.db": "default"
+    "*.db": "default",
+    "*.bin": "hexEditor.hexedit"
   },
   "wallpaper-setting.slideInterval": 2,
   "discord.detailsEditing": "🛠️ {file_name} - 📦 {file_size}",
@@ -143,5 +142,17 @@
   "discord.largeImageIdling": "💤",
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  }
+  },
+  "cmake.configureOnOpen": true,
+  "editor.minimap.renderCharacters": false,
+  "scm.inputFontFamily": "Fira Code, Lucida Console, monospace",
+  "debug.console.fontFamily": "Fira Code, Lucida Console, monospace",
+  "editor.codeLensFontFamily": "Fira Code, Lucida Console, monospace",
+  "customizeUI.font.regular": "Fira Code, Lucida Console, monospace",
+  "customizeUI.font.monospace": "Fira Code, Lucida Console, monospace",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "hexeditor.columnWidth": 16,
+  "hexeditor.showDecodedText": true,
+  "hexeditor.inspectorType": "aside",
+  "hexeditor.defaultEndianness": "little"
 }
